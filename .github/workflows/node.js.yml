@@ -35,5 +35,5 @@ jobs:
         # A directory to store and save the cache
         path: cache
         # An explicit key for restoring and saving the cache
-        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }
+        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
     - run: npm install
